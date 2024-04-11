@@ -32,7 +32,7 @@
 
 ### 사용처
 >boardProject
->
+>> 게시판 목록(DB)
+>> 게시글, 댓글, 댓글작성자, 댓글좋아요 조회(DB)
 
 
-## Interceptor
