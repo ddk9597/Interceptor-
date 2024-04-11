@@ -6,12 +6,9 @@
  
 ### 작동 방식
 >클래스를 생성 후 HandlerInterceptor implements.
-  
 >-> HandlerInterceptor를 상속받은 클래스는 인터셉터로 간주됨.
-  
 >MVC2 에서 
 >Client <-> filter <-> dispatcherServlet <-> Interceptor <-> Controller <-> service -> ... 단계 중
-
 >전처리, 후처리, aftrerCompletion 3가지로 작동함
   
 #### 전처리(preHandle) 
@@ -33,6 +30,7 @@
 ### 사용처
 >boardProject
 >> 게시판 목록(DB)
+>> 
 >> 게시글, 댓글, 댓글작성자, 댓글좋아요 조회(DB)
 
 
